@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça login como usuário comum, empresa parceira ou prestador de serviços - Easy Park</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#principal">Ir para conteúdo principal </a>
+        <br>
+        <a href="#rodape">Ir para o rodapé</a>
+        <br>
+        <img width="100" height="100" src="Imagens/Logo.png" alt="Logo Easy Park">
+        <h1>Easy Park</h1>
+        <p>
+            Seja bem vindo ao Easy Park, onde sua procura se torna realidade! Estacionamentos, chaveiros, lavarrápido e muito mais. E o melhor, tudo isso na palma de sua mão.
+        </p>
+        <a href="/home/index">Voltar para página inicial</a>
+    </header>
+    <main>
+        <h2 id="principal">Fazer Login</h2>
+        <p>
+            Você pode fazer login como usuário comum, prestador de serviços ou ainda como uma empresa parceira. Não
+            possui login, <button onclick="document.location='cadastro'">Cadastre-se</button>
+        </p>
+        <form>
+            <fieldset>
+                <legend>Faça login</legend>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="joaodasilva@example.com.br" name="email" required>
+                <br>
+                <label for="senha">Digite sua senha</label>
+                <input type="password" id="senha" name="senha" required>
+                <br>
+                <label for="salvarlogin">Continuar conectado</label>
+                <input type="checkbox" id="salvarlogin" name="salvarlogin">
+                <br>
+                <a href="">Esqueci minha senha</a>
+            </fieldset>
+        </form>
+        <button id="enviar">Fazer login</button>
+    </main>
+    <footer>
+        <a id="rodape" href="fale_conosco.html"> Fale Conosco</a>
+        <br>
+        <a href="acess_legal.html"> Acessibilidade Legal</a>
+        <br>
+        <a href="sobre_nos.html"> Sobre Nós</a>
+    </footer>
+<script src="/Scripts/login.js"></script>
+</body>
+
+</html>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mike\\easypark\\easypark\\EasyPark\\EasyPark.csproj": {}
+    "D:\\ferne\\Documents\\GitHub\\Mike 2\\EasyPark\\EasyPark\\EasyPark.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mike\\easypark\\easypark\\EasyPark\\EasyPark.csproj": {
+    "D:\\ferne\\Documents\\GitHub\\Mike 2\\EasyPark\\EasyPark\\EasyPark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mike\\easypark\\easypark\\EasyPark\\EasyPark.csproj",
+        "projectUniqueName": "D:\\ferne\\Documents\\GitHub\\Mike 2\\EasyPark\\EasyPark\\EasyPark.csproj",
         "projectName": "EasyPark",
-        "projectPath": "C:\\Users\\mike\\easypark\\easypark\\EasyPark\\EasyPark.csproj",
-        "packagesPath": "C:\\Users\\mike\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mike\\easypark\\easypark\\EasyPark\\obj\\",
+        "projectPath": "D:\\ferne\\Documents\\GitHub\\Mike 2\\EasyPark\\EasyPark\\EasyPark.csproj",
+        "packagesPath": "C:\\Users\\ferne\\.nuget\\packages\\",
+        "outputPath": "D:\\ferne\\Documents\\GitHub\\Mike 2\\EasyPark\\EasyPark\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ferne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,12 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"

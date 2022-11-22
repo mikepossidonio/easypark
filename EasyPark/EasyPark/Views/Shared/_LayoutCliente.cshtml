@@ -20,7 +20,7 @@
                     <a href="#MarcoMain" class="btn btn-secondary" role="button">Ir para o conteúdo</a>
                 </div>
                 <div class="col-md4">
-                    <a href="#MarcoFooter" class="btn btn-default" role="button">Ir para o rodapé</a>
+                    <a href="#MarcoFooter" class="btn btn-secondary" role="button">Ir para o rodapé</a>
                 </div>
             </div>
             <div class="row">
@@ -39,22 +39,17 @@
                     <span id="MarcoMenu"></span>
                     <h2>Menu pricipal</h2>
 
-                    <button type="button" class="btn btn-default" id="btnMenu" aria-expanded="false" onclick="HabilitarMenu();">Menu<span class="glyphicon-plus" id="icosExpand" aria-hidden="true"></span></button>                    <span id="MenuPrincipal" style="display:none">
+                    <button type="button" class="btn btn-default" id="btnMenu" aria-expanded="false" onclick="HabilitarMenu();">Menu<span class="glyphicon-plus" id="icosExpand" aria-hidden="true"></span></button>                    
+                    <span id="MenuPrincipal" style="display:none">
                         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Cliente" asp-action="Index">Início</a>
-                            </li>
+                            <link class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
                             <link class="nav-item" />
-                            <a class="nav-link text-dark" asp-controller="Cliente" asp-action="VerServico">Ver todos os estacionamentos e prestadores de serviços cadastrados</a>
-                            </li>
-
+                            <a class="nav-link text-dark" asp-controller="Usuarios" asp-action="NovoUsuario">Criar conta no sistema</a>
                             <link class="nav-item" />
-                            <a class="nav-link text-dark" asp-controller="Cliente" asp-action="FiltroBuscaGeral">Filtro refinado de busca de serviços em geral</a>
-                            </li>
+                            <a class="nav-link text-dark" asp-controller="Usuarios" asp-action="Login">Login</a>
                         </nav>
-
                     </span>
-                    
                 </div>
 
 
@@ -98,27 +93,13 @@
         <span id="MarcoFotter"></span>
         <footer class="border-top footer text-muted" aria-label="footer">
             <div class="container">
-                <div class="col-md-12">
-                    <div class="row">
-                        <h3>Informações úteis</h3>
-                        <u class="list-inline">
-                            <li><a asp-controller="Home" asp-action="FaleConosco">Fale conosco</a></li>
-                            <li><a asp-controller="Home" asp-action="AcessibilidadeLegal">Acessibilidade legal</a></li>
-                            <li><a asp-controller="Home" asp-action="SobreNos">Sobre nós</a></li>
-                        </u>
-                        </div>
-                    </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>Easy Park a todo tempo perto de você</h3>
-                        <p class="text-justify">AV. Paraná 108, Morumbi São Paulo.
-                        <br />Tel: (11) 5599-9999
-                        <br />
-                        </p>
-
-                        &copy; @DateTime.Now.Year - Easy Park todos os direitos reservados
-                    </div>
-
+                <a asp-area="" asp-controller="Home" asp-action="FaleConosco">Fale Conosco</a> -
+                <a asp-area="" asp-controller="Home" asp-action="SobreNos">Sobre Nós</a> -
+                <a asp-area="" asp-controller="Home" asp-action="Privacy">Politica de Privacidade</a> -
+                <a asp-area="" asp-controller="Home" asp-action="TermoDeUso">Termo de Uso</a>
+                
+                <div class="container">
+                    &copy; @DateTime.Now.Year - Easy Park todos os direitos reservados - AV. Paraná 108, Morumbi São Paulo - Tel: (11) 5599-9999
                 </div>
 
             </div>

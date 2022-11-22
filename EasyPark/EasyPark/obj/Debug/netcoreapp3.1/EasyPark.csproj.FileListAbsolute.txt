@@ -612,3 +612,6 @@ D:\ferne\Documents\GitHub\Mike 2\EasyPark\EasyPark\obj\Debug\netcoreapp3.1\EasyP
 D:\ferne\Documents\GitHub\Mike 2\EasyPark\EasyPark\obj\Debug\netcoreapp3.1\EasyPark.Views.pdb
 D:\ferne\Documents\GitHub\Mike 2\EasyPark\EasyPark\obj\Debug\netcoreapp3.1\EasyPark.csproj.CopyComplete
 D:\ferne\Documents\GitHub\Mike 2\EasyPark\EasyPark\obj\Debug\netcoreapp3.1\EasyPark.genruntimeconfig.cache
+D:\ferne\Documents\GitHub\Mike 2\EasyPark\EasyPark\obj\Debug\netcoreapp3.1\Razor\Views\Home\FaleConosco.cshtml.g.cs
+D:\ferne\Documents\GitHub\Mike 2\EasyPark\EasyPark\obj\Debug\netcoreapp3.1\Razor\Views\Home\SobreNos.cshtml.g.cs
+D:\ferne\Documents\GitHub\Mike 2\EasyPark\EasyPark\obj\Debug\netcoreapp3.1\Razor\Views\Home\TermoDeUso.cshtml.g.cs
